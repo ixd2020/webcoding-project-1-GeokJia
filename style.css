@@ -1,26 +1,11 @@
 /* CSS files add styling rules to your content */
-<style>
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
 
-table, th, td {
-  border: 3px dashed red;
-  border-collapse: collapse;
+h1 {
+  font-style: italic;
+  color: #373fff;
 }
-th, td {
-  padding: 5px;
-  text-align: left;    
-}
-body{
-  background-image:url("https://cdn.glitch.com/122eac7a-802f-45ca-a9b2-d14a4d0fc10b%2Fconfetti.jpg?v=1603938762128");
-  background-size:cover; 
-}
-</style>
-
-
-
-
-
-
