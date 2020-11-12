@@ -1,4 +1,9 @@
 /* CSS files add styling rules to your content */
+body{background-color: lightgreen;
+  }
+body{background-image:url("https://cdn.glitch.com/c834edae-b9b8-45bc-b4d8-3f7800f2208c%2F1024px-Claude_Monet%2C_Water-Lily_Pond_and_Weeping_Willow.jpg?v=1604567828683");
+    background-repeat:no-repeat;
+    background-size:cover;}
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -10,9 +15,78 @@ h1 {
   color: #373fff;
 }
 
-body{background-color: lightblue;
-  }
+#boxes{background-color:white;}
+
+
   #name{
     margin-top: 10%;
     margin-left:76%;
   }
+
+* {
+  box-sizing: border-box;
+}
+.about{background-color:white;}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  height:150px;
+}
+.pbox{background-color:pink;
+overflow:auto;}
+.gbox{background-color:lightgreen;}
+.ybox{background-color:lightyellow;
+overflow:auto;}
+.cbox{background-color:cyan;}
+.mbox{background-color:magenta;
+      color:white;
+      overflow:auto;}
+.purpbox{
+  background-color:purple;
+  font-family: 'Caveat', cursive;
+  color:white;
+  font-size:25px;
+  overflow:auto;
+  }
+
+.threecol{width:33.33%
+}
+.twocol{width:50%;}
+
+.col{width:100%;}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* unvisited link */
+a{text-decoration:none;
+  font-family:Arial;
+  border:2px dashed yellow;
+  
+  
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: orange;
+  color:white;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
