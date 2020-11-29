@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" />
+    <title>Monet's Works</title>
+  <style>
+     body{background-color:pink;}
+    <link rel="stylesheet" href="style.css"></style>
+  </head>
+  <body>
+
+<h1 onclick="this.innerHTML='Ooopsy Daisies!'">Click on this text!</h1>
+<p id="demo"></p>
+    
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:300px;height:60px;padding:40px;">
+Hello!</div>
+<br>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" >
+Mouse over Me!!!</div>
+
+<p>This example uses the addEventListener() method to execute a function when a user clicks on a button.</p>
+
+<button id="myBtn">Try it</button>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World!";
+  function mOver(obj) {
+  obj.innerHTML = ">.<"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+  
+  document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Hello World!");
+}
+</script>
+  </body>
+</html>
