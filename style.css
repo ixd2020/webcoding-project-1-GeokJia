@@ -103,7 +103,7 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navi.responsive {
     position: relative;
   }
@@ -497,7 +497,7 @@ body {
 
 .container {
   position: relative;
-  margin-top: 2%;
+  padding-bottom: 2%;
   width: 20%;
   float: right;
 }
@@ -573,6 +573,7 @@ body {
   color: black;
   font-size: 18px;
   padding: 2% 3%;
+  bottom:20%;
 }
 
 /*--------------------Works-----------------*/
