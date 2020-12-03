@@ -1,45 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css" />
-    <title>Monet's Works</title>
-  <style>
-     body{background-color:pink;}
-    <link rel="stylesheet" href="style.css"></style>
-  </head>
+<html>
   <body>
+    <div class="test">
+      <img
+        id="hover"
+        src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Monet_-_Impression%2C_Sunrise.jpg?v=1605626813579"
+      style="width:50%;"/>
+    </div>
 
-<h1 onclick="this.innerHTML='Ooopsy Daisies!'">Click on this text!</h1>
-<p id="demo"></p>
-    
-<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
-style="background-color:#D94A38;width:300px;height:60px;padding:40px;">
-Hello!</div>
-<br>
+    <p>Click the button to change the width of the image to 300px.</p>
+    <div class="test2">
+      <a href="/works.html" onmouseover="function1()" onmouseout="function2()"
+        >Try it</a
+      >
+    </div>
 
-<div onmouseover="mOver(this)" onmouseout="mOut(this)" >
-Mouse over Me!!!</div>
-
-<p>This example uses the addEventListener() method to execute a function when a user clicks on a button.</p>
-
-<button id="myBtn">Try it</button>
-
-<script>
-document.getElementById("demo").innerHTML = "Hello World!";
-  function mOver(obj) {
-  obj.innerHTML = ">.<"
-}
-
-function mOut(obj) {
-  obj.innerHTML = "Mouse Over Me"
-}
-  
-  document.getElementById("myBtn").addEventListener("click", myFunction);
-
-function myFunction() {
-  alert ("Hello World!");
-}
-</script>
+    <script>
+      function function1() {
+        document.getElementById("hover").style.width = "80%";
+      }
+      function function2() {
+        document.getElementById("hover").style.width = "50%";
+      }
+    </script>
   </body>
 </html>

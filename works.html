@@ -1,21 +1,181 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Monet's Works</title>
-  <style>
-     body{background-color:pink;}
-    <link rel="stylesheet" href="style.css"></style>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
   </head>
   <body>
-    <h1> Works </h1>
-    <h2> Water Lilies Series </h2>
-    <p> The Water Lilies (or Nymphéas) series is Monet's most well known work. The series consists of 250 oil paintings
-      that depict his flower garden at his home in Giverny.</p>
-    <a href="index.html"><em>Back to home</em></a><br>
-      <a href="about.html"><em>More about Monet</em></a><br>
-      <a href="impressionism.html"><em>Learn more about Impressionism</em></a>
+    <div class="navi" id="topnav">
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/impression.html">Impressionism</a>
+        <a class="active" href="/works.html">Artworks</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+    <div class="header3">
+      <br />
+      <h1 style="">Artworks</h1>
+      <p>Monet's Collection of Paintings</p>
+    </div>
+    <div class="row2">
+      <div class="column2">
+        <nav class="series">
+          <a
+            href="/works.html"
+            onmouseover="function1()"
+            onmouseout="function2()"
+            >Haystacks</a
+          >
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function3()"
+            onmouseout="function4()"
+          >
+            <strong> Houses of Parliament</strong>
+          </a>
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function5()"
+            onmouseout="function6()"
+            ><strong>Roeun Cathedral</strong></a
+          >
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function7()"
+            onmouseout="function8()"
+          >
+            <strong>Gare Saint-Lazare</strong>
+          </a>
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function9()"
+            onmouseout="function10()"
+          >
+            <strong>Charing Cross Bridge </strong>
+          </a>
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function11()"
+            onmouseout="function12()"
+          >
+            <strong>Poplars</strong>
+          </a>
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function13()"
+            onmouseout="function14()"
+          >
+            <strong>Water Lilies </strong></a
+          >
+          <br /><br />
+          <a
+            href="/works.html"
+            onmouseover="function15()"
+            onmouseout="function16()"
+          >
+            <strong>Other Works</strong></a
+          >
 
+          <br /><br />
+        </nav>
+      </div>
+      <div class="column2">
+        <div class="grid">
+          <!-- Photo Grid -->
+          <div class="row3">
+            <div class="column3">
+              <img
+                id="hay"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F512px-Claude_Monet_-_Meules_(W_1273).jpg?v=1606751739058"
+                style="width:100%"
+              />
 
+              <img
+                id="station"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Claude_Monet_-_The_Gare_Saint-Lazare%2C_Arrival_of_a_Train.jpg?v=1606754349849"
+                style="width:100%"
+              />
+              <img
+                id="poplars"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F512px-Three_Trees_in_Grey_Weather_1891_Claude_Monet.jpg?v=1606754575303"
+                style="width:100%"
+              />
+            </div>
+            <div class="column3">
+              <img
+                id="house"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F512px-Le_Parlement_de_Londres_Monet.jpg?v=1606753720966"
+                style="width:100%"
+              />
+              <img
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2Fportrait-of-claude-monet-1875.jpg!Large.jpg?v=1606752952886"
+                style="width:100%"
+              />
+              <img
+                id="lilies"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-1900_C.Monet_Japonski_mostek_w_Giverny..jpg?v=1606754729027"
+                style="width:100%"
+              />
+            </div>
+            <div class="column3">
+              <img
+                id="cathedral"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F512px-Claude_Monet_-_Rouen_Cathedral%2C_Facade_and_Tour_d'AlbaneI.jpg?v=1606754051963"
+                style="width:100%"
+              />
+              <img
+                id="bridge"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Claude_Monet_-_Charing_Cross_Bridge_(Saint_Louis).jpg?v=1606754349942"
+                style="width:100%"
+              />
+              <img
+                id="others"
+                src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F2048px-Claude_Monet%2C_Saint-Georges_majeur_au_cr%C3%A9puscule.jpg?v=1606664893263"
+                style="width:100%"
+              />
+              <br /><br /><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
