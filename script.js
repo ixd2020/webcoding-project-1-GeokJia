@@ -1,4 +1,3 @@
-
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -8,6 +7,11 @@ function myFunction() {
   }
 }
 
+$(document).ready(function() {
+  $(".giverny").click(function() {
+    $("#panel").slideToggle("200");
+  });
+});
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -84,7 +88,6 @@ anime
   .add({
     targets: ".ml5"
   });
-
 
 function function1() {
   document.getElementById("hay").style.width = "120%";
@@ -233,9 +236,47 @@ function h20() {
     "Title: Wheatstack (Snow Effect, Overcast day). (1890–91) <br>Medium: Oil on canvas";
 }
 
-$(document).ready(function(){
-  $("button").hover(function(){
-    $("#div1").toggle(200);
-
-  });
-});
+function p1() {
+  document.getElementById("parliament").innerHTML =
+    "Title: The Houses of Parliament (Effect of Fog) (1903–1904)";
+}
+function p2() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Houses of Parliament, stormy sky, (1904)";
+}
+function p3() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Le Parlement, Effet de Brouillard (1903)";
+}
+function p4() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Parlement, coucher du soleil (sunset) (1902)";
+}
+function p5() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Houses of Parliament, London (1900–1901)";
+}
+function p6() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Houses of Parliament, London (1904)";
+}
+function p7() {
+  document.getElementById("parliament").innerHTML =
+    "Title: London, Sun Breaking Through the Fog (1904)";
+}
+function p8() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Houses of Parliament Sunlight Effect (1903)";
+}function p9() {
+  document.getElementById("parliament").innerHTML =
+    "Title: The Houses of Parliament, Seagulls (1903)";
+}function p10() {
+  document.getElementById("parliament").innerHTML =
+    "Title: Seagulls, the River Thames and the Houses of Parliament (1904)";
+}function p11() {
+  document.getElementById("parliament").innerHTML =
+    "Title: The Houses of Parliament, Sunset, 1903 (1903)";
+}function p12() {
+  document.getElementById("parliament").innerHTML =
+    "Title:  Houses of Parliament, London (1905)";
+}
