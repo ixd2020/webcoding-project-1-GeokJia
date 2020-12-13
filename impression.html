@@ -14,12 +14,13 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -27,23 +28,42 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title></title>
   </head>
   <body>
-    <div class="navi" id="topnav">
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a class="active" href="/impression.html">Impressionism</a>
-        <a href="/works.html">Artworks</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="/index.html" class="active">Home</a>
+      <a href="/about.html">About</a>
+      <a class="active" href="/impression.html">Impressionism</a>
+      <div class="dropdown">
+        <a class="button" href="/works.html">Artworks</a>
+           <div class="content">
+          <a href="/haystacks.html">Haystacks</a>
+          <a href="/parliament.html">Houses of Parliament</a>
+          <a href="/cathedral.html">Roeun Cathedral</a>
+          <a href="/haystack.html">Gare-Saint Lazare</a>
+          <a href="/haystack.html">Charing Cross Bridge</a>
+          <a href="/haystack.html">Poplars</a>
+          <a href="/haystack.html">Water Lilies</a>
+          <a href="/haystack.html">Others</a>
+        </div>
+      </div>
+      <a
+        href="javascript:void(0);"
+        style="font-size:15px;"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
     </div>
     <div class="header2">
       <br />
-      <h1>Impressionism</h1>
+      <h1 id="imp">Impressionism</h1>
       <p>The driving force behind it</p>
     </div>
 
@@ -52,22 +72,23 @@
         <h2>
           What is Impressionism?
         </h2>
+        <div class="container">
+          <img
+            src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Monet_-_Impression%2C_Sunrise.jpg?v=1605626813579"
+            class="image"
+            style="width:95%"
+          />
+          <div class="middle">
+            <div class="text">Impression,<br />Sunrise.</div>
+          </div>
+        </div>
       </header>
       <br />
       <p>
         Oscar-Cluade Monet, widely known as Monet, was a French artist born on
         14 November 1840 who founded the French Impressionism movement.
       </p>
-      <div class="container">
-        <img
-          src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Monet_-_Impression%2C_Sunrise.jpg?v=1605626813579"
-          class="image"
-          style="width:95%"
-        />
-        <div class="middle">
-          <div class="text">Impression,<br />Sunrise.</div>
-        </div>
-      </div>
+
       <p>
         Monet was a key figure in the founding of the movement and produced the
         most amount of paintings using Impressionism.
@@ -85,26 +106,6 @@
         Monet's Technique
       </h2>
       <br />
-      <p>
-        Monet was the most prominent figure behind Impressionism. His lengthy
-        career was mostly spent purusing Impressionism.
-        <br /><br />
-        In 1856, Monet’s coincidental meeting with Eugene Boudin, who painted
-        small beach scenes, had opened Monet’s eyes to the prospect of plein-air
-        painting.<br />
-        From then on, he devoted himself to searching for fresh and improved
-        methods of painterly expression. He visited the Paris Salon where he met
-        older painters <br />
-        and familiarised himself with their artworks. He had also made friends
-        with other young aspiring artists. <br /><br />
-        Spending 5 years at Argenteuil, he was mostly in a floating studio on
-        River seine which had influenced his study of light and reflections. As
-        a result of his study, instead of thinking in terms of scenes and
-        objects, he thought in colours and shapes. Using bright colours in
-        dabs,dashes and squiggles of paint, he rejected the academic teachings
-        of Gleyre — one of his previous teachers.
-        <br />
-      </p>
 
       <div class="container2">
         <img
@@ -132,7 +133,7 @@
       </p>
       <br /><br /><br />
       <br /><br /><br />
-      <br /><br /><br />
+      <br />
       <br />
       <h2 style="text-align:center; ">
         Impressionist Works

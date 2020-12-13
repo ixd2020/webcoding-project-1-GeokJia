@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -14,33 +15,53 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title></title>
   </head>
   <body>
-    <div class="navi" id="topnav">
-      <nav>
-        <a href="/index.html">Home</a>
-        <a class="active" href="/about.html">About</a>
-        <a href="/impression.html">Impressionism</a>
-        <a href="/works.html">Artworks</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
+   <div class="topnav" id="myTopnav">
+      <a href="/index.html" >Home</a>
+      <a class="active" href="/about.html">About</a>
+      <a href="/impression.html">Impressionism</a>
+      <div class="dropdown">
+        <a class="button" href="/works.html">Artworks</a>
+          <div class="content">
+          <a href="/haystacks.html">Haystacks</a>
+          <a href="/parliament.html">Houses of Parliament</a>
+          <a href="/cathedral.html">Roeun Cathedral</a>
+          <a href="/haystack.html">Gare-Saint Lazare</a>
+          <a href="/haystack.html">Charing Cross Bridge</a>
+          <a href="/haystack.html">Poplars</a>
+          <a href="/haystack.html">Water Lilies</a>
+          <a href="/haystack.html">Others</a>
+        </div>
+      </div>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size:15px;"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
     </div>
     <div class="header">
       <br />
@@ -48,89 +69,115 @@
       <p>The Artist Who Painted in Series</p>
     </div>
     <div class="monet">
-      <header>
-        <div class="card">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img
-                  src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Claude_Monet_1899_Nadar_crop.jpg?v=1605627741784"
-                  style="width:200%;height:120%;"
-                />
-              </div>
-              <div class="flip-card-back">
-                <img
-                  src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Autoportret_Claude_Monet00.jpg?v=1605626813579"
-                  style="width:200%;height:120%;"
-                />
-              </div>
-            </div>
-          </div>
+      <div class="container3">
+        <img
+          src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Claude_Monet_1899_Nadar_crop.jpg?v=1605627741784"
+          class="image"
+          style="width:100%"
+        />
+        <div class="middle">
+          <div class="text">Claude Monet</div>
         </div>
-        <div id="quote">
-          <h1 >
-            <em> " I like to paint as a bird sings" </em>
-          </h1>
-        </div>
-        <br /><br />
-        <h2 >
-          Who is Monet?
-        </h2>
-        <br />
-        <p>
-          Oscar-Cluade Monet (1840-1926), widely known as Monet, was a French
-          artist born on 14 November 1840 who founded the French Impressionism
-          movement. Monet was a key figure in the founding of the movement and
-          produced the most amount of paintings using Impressionism.
-          <br /><br />Throughtout his lifetime, Monet has painted a whopping
-          amount of <strong> nearly 2000 paintings. </strong>
-          <br />
-          Monet desired to record the French countryside, leading him to paint
-          the same scene repeatedly to express the change of light and seasons.
-          Some subjects of his paintings were the Routhen Cathedral, Charing
-          Cross Bridge, and the Water Lilies.
-        </p>
-        <br /><br />
-        <h2>
-          Monet's Technique
-        </h2>
-        <br />
-        <p>
-          Having been described as "the driving force behind Impressionism".
-          Monet’s career as a painter was mostly spent pursuing Impressionism.
-          <br /><br />
-          In his lengthy career, Monet constantly painted the scenery and
-          leisure activities of Paris and its environment including the Normandy
-          Coast. 20th Century modernism was led by Monet by developing a special
-          style that aimed to reproduce the very act of nature.
-          <br /><br />
-          In his later works, Monet’s created a method of reproducing replicated
-          studies of the same motif in series, switching canvases along with the
-          light or along with his changing interests.
+      </div>
+      <br /><br />
+      <h2>
+        Who is Monet?
+      </h2>
 
-          <br /><br />
-          <img
-            id="studio"
-            src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2Fstation.jpg?v=1605800423097"
-          />
-          Starting in 1877, he painted a series of paintings of St-Lazare
-          Station. Monet observed the way smoke and steam influenced visibility
-          and colour. Sometimes, it would be opaque and sometimes it would be
-          translucent. He wanted to use the study to observe and paint the
-          influence of mist and rain on the landscape. His studies of the
-          atmosphere would then develop into a hefty number of series of
-          paintings where Monet replicated the same subjects in changing lights
-          at different timings of the day,weather and season. The series he
-          painted were regularly exhibited in groups. For example, his images of
-          haystacks (1890-1891) and the Rouen Cathedral (1894).
-          <br />
-        </p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br />
-      </header>
+      <br />
+      <p>
+        Oscar-Cluade Monet (1840-1926), widely known as Monet, was a French
+        artist born on 14 November 1840 who founded the <br />French
+        Impressionism movement.
+      </p>
+
+      <p>
+        Monet was a key figure in the founding of the movement and produced the
+        most amount of paintings using Impressionism. <br /><br />Throughtout
+        his lifetime, Monet has painted a whopping amount of
+        <strong> nearly 2000 paintings. </strong>
+        <br />
+        Monet desired to record the French countryside, leading him to paint the
+        same scene repeatedly to express the change of light and seasons. Some
+        subjects of his paintings were the Routhen Cathedral, Charing Cross
+        Bridge, and the Water Lilies.
+      </p>
+      <br /><br />
+      <h2>
+        Monet's Technique
+      </h2>
+      <br />
+      <p>
+        Having been described as "the driving force behind Impressionism".
+        Monet’s career as a painter was mostly spent pursuing Impressionism.
+        <br /><br />
+        In his lengthy career, Monet constantly painted the scenery and leisure
+        activities of Paris and its environment including the Normandy Coast.
+        20th Century modernism was led by Monet by developing a special style
+        that aimed to reproduce the very act of nature.
+        <br /><br />
+
+        <img
+          id="studio"
+          src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2Fstation.jpg?v=1605800423097"
+        />
+        In his later works, Monet’s created a method of reproducing replicated
+        studies of the same motif in series, switching canvases along with the
+        light or along with his changing interests.
+
+        <br /><br />
+
+        Starting in 1877, he painted a series of paintings of St-Lazare Station.
+        Monet observed the way smoke and steam influenced visibility and colour.
+        Sometimes, it would be opaque and sometimes it would be translucent. He
+        wanted to use the study to observe and paint the influence of mist and
+        rain on the landscape. His studies of the atmosphere would then develop
+        into a hefty number of series of paintings where Monet replicated the
+        same subjects in changing lights at different timings of the day,weather
+        and season. The series he painted were regularly exhibited in groups.
+        For example, his images of haystacks (1890-1891) and the Rouen Cathedral
+        (1894).
+        <br />
+      </p>
+      <br /><br /><br /><br /><br /><br />
     </div>
+    <div class="giverny">
+      <h2>
+        <img
+          class="flower"
+          src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2FPink-Puff-Flower.svg?v=1607578491349"
+        />
+        Monet's Garden
+
+        <img
+          class="flower"
+          src="https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2Fflowers_watercolor.svg?v=1607578181105"
+        />
+      </h2>
+      <br />
+      <p>
+        In 1980, Monet became prosperous enough to buy a house at Givery and its
+        surrounding land and properties for his garden. The gorgeous garden
+        would eventually become the subject for some of his most famous
+        works,such as the Water Lilies series and the greatest work of art in
+        his life.
+        <br /><br />
+        <strong>Find out more about Monet's Garden in the Video below!</strong>
+      </p>
+      <br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zTO81733N10"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <br /><br /><br />
+    <br /><br /><br />
+    <br />
+
     <script src="script.js"></script>
   </body>
 </html>
