@@ -66,7 +66,7 @@ html {
   text-decoration: none;
   font-family: "Libre Caslon Display", serif;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 .topnav.active {
@@ -238,10 +238,19 @@ body {
 #arrow {
   text-align: center;
   position: absolute;
-  bottom: 15%;
+  bottom: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 3%;
+}
+
+#arrow {
+    animation: fadeIn 1s infinite alternate;
+}
+
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
 }
 /*About Monet*/
 
@@ -481,7 +490,7 @@ body {
 
 .giverny h2 {
   color: white;
-  background-color:rgba(255, 99, 71, 0.4);
+  background-color:rgba(255, 187, 71, 0.3);
 
 
 }
@@ -813,8 +822,8 @@ body {
   }
 }
 
+#haystack{background-color:rgba(255, 187, 71, 0.4);}
 
-/*---------------Parliament---------------------*/
 
 .header5 {
   padding: 100px;
@@ -834,3 +843,110 @@ body {
   margin-left: 1%;
 }
 
+.header6 {
+  padding: 100px;
+  text-align: left;
+  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F512px-Claude_Monet_032.jpg?v=1607872093314");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 27px;
+  font-family: "Libre Baskerville", serif;
+}
+
+#parliament{background-color:rgba(180, 180, 180,0.7);}
+.header6 p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: white;
+  margin-left: 1%;
+}
+
+#rouen {margin-top:110%;
+background-color:rgba(218, 127, 255, 0.4);
+color:white;}
+
+.header7 {
+  padding: 100px;
+  text-align: left;
+  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2FLa_gare_Saint-Lazare%2C_Les_signaux_1877_Claude_Monet.jpg?v=1607942923434");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 27px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.header7 p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: white;
+  margin-left: 1%;
+}
+
+#station {margin-top:40%;
+background-color:rgba(46, 153, 255, 0.2);}
+
+.header8 {
+  padding: 100px;
+  text-align: left;
+  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Monet-Tamise-Lyon.jpg?v=1607953867573");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 27px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.header8 p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: white;
+  margin-left: 1%;
+}
+
+#bridge {margin-top:20%;
+background-color:rgba(46, 153, 255, 0.2);}
+
+.header9 {
+  padding: 100px;
+  text-align: left;
+  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-Claude_Monet_040.jpg?v=1607955796378");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 27px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.header9 p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: white;
+  margin-left: 1%;
+}
+
+#poplars {margin-top:120%;
+background-color:rgba(34, 218, 14, 0.4);}
+
+
+
+.header10{
+  padding: 100px;
+  text-align: left;
+  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-CLAUDE_MONET_1840_-_1926_NYMPH%C3%89AS_AVEC_REFLETS_DE_HAUTES_HERBES.jpg?v=1607957432976");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 27px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.header10 p {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: white;
+  margin-left: 1%;
+}
+
+#lilies {background-color:rgba(34, 218, 14, 0.4);}
