@@ -474,16 +474,14 @@ function wl1() {
     "Title: Water Lilies, (1897-1899)";
 }
 function wl2() {
-  document.getElementById("lilies").innerHTML =
-    "Title: Water Lilies, (1907)";
+  document.getElementById("lilies").innerHTML = "Title: Water Lilies, (1907)";
 }
 function wl3() {
   document.getElementById("lilies").innerHTML =
     "Title: Water Lilies – Evening Effect, (1897-1898)";
 }
 function wl4() {
-  document.getElementById("lilies").innerHTML =
-    "Title: Water Lilies, (1907)";
+  document.getElementById("lilies").innerHTML = "Title: Water Lilies, (1907)";
 }
 function wl5() {
   document.getElementById("lilies").innerHTML =
@@ -514,8 +512,7 @@ function wl11() {
     "Title: The Water Lily Pond (1917-1919)";
 }
 function wl12() {
-  document.getElementById("lilies").innerHTML =
-    "Title: Water Lilies (1915)";
+  document.getElementById("lilies").innerHTML = "Title: Water Lilies (1915)";
 }
 function wl13() {
   document.getElementById("lilies").innerHTML =
@@ -526,10 +523,61 @@ function wl14() {
     "Title: Water-Lily Pond and Weeping Willow, (1916-1919)";
 }
 function wl15() {
-  document.getElementById("lilies").innerHTML =
-    "Title: Water Lilies (1904)";
+  document.getElementById("lilies").innerHTML = "Title: Water Lilies (1904)";
 }
 function wl16() {
   document.getElementById("lilies").innerHTML =
     "Title: Water Lilies (1897-1899)";
+}
+
+function o1() {
+  document.getElementById("others").innerHTML = "Title: Self Potrait (1917)";
+}
+function o2() {
+  document.getElementById("others").innerHTML =
+    "Title: Houses at Argenteuil (1873)";
+}
+function o3() {
+  document.getElementById("others").innerHTML =
+    "Title: The Walk, Argenteuil	(1875)";
+}
+
+function o4() {
+  document.getElementById("others").innerHTML =
+    "Title: The Church at Varengeville, morning effect (1882)";
+}
+function o5() {
+  document.getElementById("others").innerHTML =
+    "Title: Jetty at Fecamp in bad weather (1881)";
+}
+
+function o6() {
+  document.getElementById("others").innerHTML =
+    "Title: Boulevard des Capucines (1873)";
+}
+function o7() {
+  document.getElementById("others").innerHTML =
+    "Title: Leicester Square at Night (1900-1901)";
+}
+function o8() {
+  document.getElementById("others").innerHTML =
+    "Title: Autumn Effect at Argenteuil (1873)";
+}
+
+function o9() {
+  document.getElementById("others").innerHTML =
+    "Title: San Giorgio Maggiore at Dusk (1908)";
+}
+function o10() {
+  document.getElementById("others").innerHTML =
+    "Title: The Artist's House at Giverny (1913)";
+}
+function o11() {
+  document.getElementById("others").innerHTML =
+    "Title: The House amongst the Roses (1925)";
+}
+
+function o12() {
+  document.getElementById("others").innerHTML =
+    "Title: Meadow with Poplars (1875)";
 }

@@ -245,12 +245,13 @@ body {
 }
 
 #arrow {
-    animation: fadeIn 1s infinite alternate;
+  animation: fadeIn 1s infinite alternate;
 }
 
-
-@keyframes fadeIn { 
-  from { opacity: 0; } 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
 /*About Monet*/
 
@@ -490,9 +491,7 @@ body {
 
 .giverny h2 {
   color: white;
-  background-color:rgba(255, 187, 71, 0.3);
-
-
+  background-color: rgba(255, 187, 71, 0.3);
 }
 
 .flower {
@@ -509,7 +508,7 @@ body {
 #panel {
   padding: 50px;
   display: none;
-  text-align:center;
+  text-align: center;
 }
 
 /*-----------Impressionism---------------------*/
@@ -818,12 +817,13 @@ body {
 @media screen and (max-width: 800px) {
   .desc p {
     font-size: 18px;
-    padding:2%;
+    padding: 2%;
   }
 }
 
-#haystack{background-color:rgba(255, 187, 71, 0.4);}
-
+#haystack {
+  background-color: rgba(255, 187, 71, 0.4);
+}
 
 .header5 {
   padding: 100px;
@@ -854,7 +854,9 @@ body {
   font-family: "Libre Baskerville", serif;
 }
 
-#parliament{background-color:rgba(180, 180, 180,0.7);}
+#parliament {
+  background-color: rgba(180, 180, 180, 0.7);
+}
 .header6 p {
   font-family: "Satisfy", cursive;
   font-size: 30px;
@@ -862,9 +864,11 @@ body {
   margin-left: 1%;
 }
 
-#rouen {margin-top:110%;
-background-color:rgba(218, 127, 255, 0.4);
-color:white;}
+#rouen {
+  margin-top: 110%;
+  background-color: rgba(218, 127, 255, 0.4);
+  color: white;
+}
 
 .header7 {
   padding: 100px;
@@ -884,8 +888,10 @@ color:white;}
   margin-left: 1%;
 }
 
-#station {margin-top:40%;
-background-color:rgba(46, 153, 255, 0.2);}
+#station {
+  margin-top: 40%;
+  background-color: rgba(46, 153, 255, 0.2);
+}
 
 .header8 {
   padding: 100px;
@@ -905,8 +911,10 @@ background-color:rgba(46, 153, 255, 0.2);}
   margin-left: 1%;
 }
 
-#bridge {margin-top:20%;
-background-color:rgba(46, 153, 255, 0.2);}
+#bridge {
+  margin-top: 20%;
+  background-color: rgba(46, 153, 255, 0.2);
+}
 
 .header9 {
   padding: 100px;
@@ -926,12 +934,12 @@ background-color:rgba(46, 153, 255, 0.2);}
   margin-left: 1%;
 }
 
-#poplars {margin-top:120%;
-background-color:rgba(34, 218, 14, 0.4);}
+#poplars {
+  margin-top: 120%;
+  background-color: rgba(34, 218, 14, 0.4);
+}
 
-
-
-.header10{
+.header10 {
   padding: 100px;
   text-align: left;
   background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-CLAUDE_MONET_1840_-_1926_NYMPH%C3%89AS_AVEC_REFLETS_DE_HAUTES_HERBES.jpg?v=1607957432976");
@@ -949,4 +957,6 @@ background-color:rgba(34, 218, 14, 0.4);}
   margin-left: 1%;
 }
 
-#lilies {background-color:rgba(34, 218, 14, 0.4);}
+#lilies {
+  background-color: rgba(34, 218, 14, 0.4);
+}
