@@ -675,7 +675,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 2px;
+  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -946,15 +946,3 @@ body {
 #lilies {
   background-color: rgba(34, 218, 14, 0.4);
 }
-
-.header11 {
-  padding: 100px;
-  text-align: left;
-  background-image: url("https://cdn.glitch.com/551ea48c-629d-471d-9ba8-38162f95b452%2F1024px-1873_Monet_Houses_at_Argenteuil_anagoria.jpg?v=1608035945152");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: black;
-  font-size: 27px;
-  font-family: "Libre Baskerville", serif;
-}
-
