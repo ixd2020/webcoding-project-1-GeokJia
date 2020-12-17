@@ -110,10 +110,10 @@ function function6() {
   document.getElementById("cathedral").style.width = "100%";
 }
 function function7() {
-  document.getElementById("station").style.width = "120%";
+  document.getElementById("stations").style.width = "120%";
 }
 function function8() {
-  document.getElementById("station").style.width = "100%";
+  document.getElementById("stations").style.width = "100%";
 }
 function function9() {
   document.getElementById("bridge").style.width = "120%";
@@ -122,10 +122,10 @@ function function10() {
   document.getElementById("bridge").style.width = "100%";
 }
 function function11() {
-  document.getElementById("poplars").style.width = "120%";
+  document.getElementById("poplar").style.width = "120%";
 }
 function function12() {
-  document.getElementById("poplars").style.width = "100%";
+  document.getElementById("poplar").style.width = "100%";
 }
 function function13() {
   document.getElementById("lilies").style.width = "120%";
